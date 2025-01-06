@@ -7,7 +7,7 @@ GitBucket is a Git web platform powered by Scala
 ## How to run
 
 ```shell
-docker container run -d --name gitbucket -v ./localdatadir:/gitbucket -p 8080:8080 -p 29418:29418  clamy54/gitbucket:4.41.0
+docker container run -d --name gitbucket -v ./localdatadir:/gitbucket -p 8080:8080 -p 29418:29418  clamy54/gitbucket:4.42.0
 ```
 
 Go to `http://127.0.0.1:8080/` and log in with ID: **root** / Pass: **root**.
