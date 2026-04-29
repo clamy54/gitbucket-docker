@@ -10,7 +10,7 @@ RUN mkdir /gitbucket && mkdir /opt/gitbucket
 RUN apt update && apt -y upgrade && apt -y install openjdk-17-jre-headless sed grep curl
 
 # Download GitBucket and H2 jars
-ADD https://github.com/gitbucket/gitbucket/releases/download/4.44.0/gitbucket.war /opt/gitbucket/gitbucket.war
+ADD https://github.com/gitbucket/gitbucket/releases/download/4.46.1/gitbucket.war /opt/gitbucket/gitbucket.war
 ADD https://repo1.maven.org/maven2/com/h2database/h2/1.4.199/h2-1.4.199.jar /migration/h2-1.4.199.jar
 ADD https://repo1.maven.org/maven2/com/h2database/h2/2.3.232/h2-2.3.232.jar /migration/h2-2.3.232.jar 
 
